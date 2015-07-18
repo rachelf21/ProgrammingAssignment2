@@ -1,5 +1,6 @@
 
 makeCacheMatrix <- function(x = matrix()) {
+        ## Create a special "matrix" object that can cache its inverse
         
         inverseMatrix<-NULL
         
